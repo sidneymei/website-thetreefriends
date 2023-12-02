@@ -29,8 +29,9 @@
             </div>
             <img src="image.png" alt="Crash" class="hidden md:block h-64 -z-10" />
         </header>                 
-        <main class="flex justify-center flex-col items-center space-y-8 mb-10 text-center container mx-auto px-4">
-            <section id="single-view">
+        <main class="flex justify-center flex-col items-center mb-10 text-center mx-auto">
+            <section id="single-view" class="container mx-auto px-4 py-6">
+                <hr class="border-gray-200 mb-6" />
                 <div class="mb-4">
                     <h2 class="text-2xl font-bold mb-2">Traffic Crash Patterns in 2023</h2>
                     <h4 class="text-sm uppercase font-semibold text-gray-500">Single View</h4>
@@ -39,16 +40,18 @@
                 
                 <div id="single" class="mt-6 w-full"></div>
             </section>
-            <section id="multi-view">
+            <section id="multi-view" class="container mx-auto px-4 py-6">
+                <hr class="border-gray-200 mb-6" />
                 <div class="mb-4">
                     <h2 class="text-2xl font-bold mb-2">Interactive Map of Crashes by Police Beat</h2>
                     <h4 class="text-sm uppercase font-semibold text-gray-500">Multi View</h4>
                 </div>
                 <p class="text-gray-700">These two visualizations combine to provide insights into the crashes per police beat and injuries based on speed limit.The first visualization is the choropleth. The choropleth will show the number of crashes and the speed limit at the beat numbers. By clicking on a beat on the choropleth, it will show the speed limits, crashes and beat number. The second visualization is the bar graph. It will categorize the data based on speed limit. By brushing on a bar, it will show the number of injuries for the posted speed limit. It should transform the choropleth to show the beats on the choropleth with the same speed limit.</p>
 
-                <div id="multi" class="mt-6 flex items-center w-full"></div>
+                <div id="multi" class="mt-6 flex items-center"></div>
             </section>
-            <section id="multi-linked-view">
+            <section id="multi-linked-view" class="container mx-auto px-4 py-6">
+                <hr class="border-gray-200 mb-6" />
                 <div class="mb-4">
                     <h2 class="text-2xl font-bold mb-2">Crash Times</h2>
                     <h4 class="text-sm uppercase font-semibold text-gray-500">Multi-Linked View</h4>
@@ -57,7 +60,8 @@
 
                 <div id="multi-linked" class="mt-6 w-full"></div>
             </section>
-            <section id="spatial-view">
+            <section id="spatial-view" class="container mx-auto px-4 py-6">
+                <hr class="border-gray-200 mb-6" />
                 <div class="mb-4">
                     <h2 class="text-2xl font-bold mb-2">Distribution of Traffic Crashes</h2>
                     <h4 class="text-sm uppercase font-semibold text-gray-500">Spatial View</h4>
