@@ -637,24 +637,12 @@ nav {
   width: 100%;
 }
 
-.max-w-xl {
-  max-width: 36rem;
-}
-
-.max-w-2xl {
-  max-width: 42rem;
-}
-
-.max-w-4xl {
-  max-width: 56rem;
-}
-
-.max-w-6xl {
-  max-width: 72rem;
-}
-
 .max-w-5xl {
   max-width: 64rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
 }
 
 .transform {
@@ -683,15 +671,14 @@ nav {
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-8 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
-}
-
 .border-gray-200 {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-10 {
@@ -702,11 +689,6 @@ nav {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .pb-20 {
@@ -789,6 +771,10 @@ nav {
 
 .vega-bind .vega-bind-name {
   font-weight: bold;
+  margin-right: 1rem;
+}
+
+.vega-bindings .vega-bind:not(:last-child) {
   margin-right: 1rem;
 }
 
